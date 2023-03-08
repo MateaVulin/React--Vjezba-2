@@ -1,7 +1,7 @@
 import "./App.css";
 import PrvaKompa from "./components/PrvaKompa";
 import DrugaKompa from "./components/DrugaKompa";
-import TrecaKompa from "./components/TrecaKompa";
+import * as OstaleKompe from "./components/OstaleKompe";
 /*import {
   PrvaKompa as Prva,
   DrugaKompa as Druga,
@@ -22,7 +22,8 @@ function App() {
       <h1>Algebra</h1>
       <PrvaKompa />
       <DrugaKompa />
-      <TrecaKompa />
+      <OstaleKompe.TrecaKompa />
+      <OstaleKompe.CetvrtaKompa />
     </div>
   );
 }
