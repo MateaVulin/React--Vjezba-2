@@ -1,9 +1,9 @@
-const DrugaKompa = () => {
+const PrvaKompa = () => {
   return (
     <div>
-      <h2>Druga komponenta</h2>
+      <h2>Prva komponenta</h2>
     </div>
   );
 };
 
-export default DrugaKompa;
+export default PrvaKompa;
