@@ -17,6 +17,13 @@ import CetvrtaKompa, {
 } from "./components/DrugaKompa";*/
 
 function App() {
+  const jasnoSvima = true;
+  const podnaslov = jasnoSvima ? (
+    <h2>Svima je jasno,baš super</h2>
+  ) : (
+    <h2>Svi samo klimaju glavom, nikome nije jasno</h2>
+  );
+  const pozdravniFooter = jasnoSvima && <h2>Pozdrav do četvrtka</h2>;
   return (
     <div className="App">
       <h1>Algebra</h1>
@@ -24,6 +31,7 @@ function App() {
       <DrugaKompa />
       <OstaleKompe.TrecaKompa />
       <OstaleKompe.CetvrtaKompa />
+      (pozdravniFooter)
     </div>
   );
 }
